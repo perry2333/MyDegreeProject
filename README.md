@@ -54,8 +54,11 @@ Pyroomacoustics中自带了is_inside函数，用于判断一个二维或三维�
         except ValueError as e:
         
             if str(e) == "The pair is not suitable for evaluation.":
-            
+
                 print("The pair is not suitable for evaluation.")
                 
                 return 2
                 
+# 主要参考文献
+>1. Tervo S, Tynen J P, Kuusinen A, et al. Spatial Decomposition Method for Room Impulse Responses[J]. J. Audio Eng. Soc., 2013, 61(1).
+>2. Geldert A. Room Impulse Response Interpolation via Optimal Transport[J].
