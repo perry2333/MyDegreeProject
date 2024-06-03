@@ -27,11 +27,11 @@ POT_calculate.py与R_SRIR_G.py是与matlab对接的接口函数
 
 Pyroomacoustics中自带了is_inside函数，用于判断一个二维或三维坐标是否在房间内，可以直接使用
 
-可以不需要替换源代码，只需要使用is_inside函数就可以了，于是可以忽略 "需要替换的代码.txt"文件
+可以不需要替换源代码，只需要使用is_inside函数就可以了
 
 我在R_SRIR_G.py便使用了is_inside函数判断了连线是否都在房间内，代码如下：
-#
-if pair_check == 1:   #自己写的检测逻辑，运用了room库中自带的is_inside函数
+
+    if pair_check == 1:   #自己写的检测逻辑，运用了room库中自带的is_inside函数
 
         # 将列表或数组转换为 NumPy 数组
         
