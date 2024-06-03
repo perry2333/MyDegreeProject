@@ -23,8 +23,6 @@ self_design.ipynb中进行了对生成SRIR的探索
 
 POT_testing.ipynb中对POT算法进行了探索
 
-Pyroomacoustics中的room.py文件进行了一些修改，修改代码和位置放在另一个文档中
-
 POT_calculate.py与R_SRIR_G.py是与matlab对接的接口函数
 
 Pyroomacoustics中自带了is_inside函数，用于判断一个二维或三维坐标是否在房间内，可以直接使用
