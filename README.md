@@ -9,6 +9,8 @@ upload all my code for my degree project
 
 需要注意matlab调用python时版本的适配
 
+还要安装好Pyroomacoustics和POT库，只要这两个库的示例代码能跑通，应该就能work
+
 large_test.m用于大批次仿真测试
 
 testing2.mlx用于画图
